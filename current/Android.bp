@@ -6,14 +6,6 @@ package {
     default_applicable_licenses: ["Android-Apache-2.0"],
 }
 
-soong_config_module_type_import {
-    from: "packages/modules/common/Android.bp",
-    module_types: [
-        "module_java_sdk_library_import",
-        "module_prebuilt_bootclasspath_fragment",
-    ],
-}
-
 prebuilt_bootclasspath_fragment {
     name: "permission-module-sdk_com.android.permission-bootclasspath-fragment@current",
     sdk_member_name: "com.android.permission-bootclasspath-fragment",
@@ -33,14 +25,9 @@ prebuilt_bootclasspath_fragment {
     },
 }
 
-module_prebuilt_bootclasspath_fragment {
+prebuilt_bootclasspath_fragment {
     name: "com.android.permission-bootclasspath-fragment",
-    prefer: true,
-    soong_config_variables: {
-        module_build_from_source: {
-            prefer: false,
-        },
-    },
+    prefer: false,
     visibility: ["//visibility:public"],
     apex_available: ["com.android.permission"],
     licenses: ["permission-module-sdk_Android-Apache-2.0"],
@@ -67,10 +54,6 @@ java_sdk_library_import {
     ],
     licenses: ["permission-module-sdk_Android-Apache-2.0@current"],
     shared_library: false,
-    permitted_packages: [
-        "android.permission",
-        "android.app.role",
-    ],
     public: {
         jars: ["sdk_library/public/framework-permission-stubs.jar"],
         stub_srcs: ["sdk_library/public/framework-permission.srcjar"],
@@ -94,14 +77,9 @@ java_sdk_library_import {
     },
 }
 
-module_java_sdk_library_import {
+java_sdk_library_import {
     name: "framework-permission",
-    prefer: true,
-    soong_config_variables: {
-        module_build_from_source: {
-            prefer: false,
-        },
-    },
+    prefer: false,
     visibility: ["//visibility:public"],
     apex_available: [
         "com.android.permission",
@@ -109,10 +87,6 @@ module_java_sdk_library_import {
     ],
     licenses: ["permission-module-sdk_Android-Apache-2.0"],
     shared_library: false,
-    permitted_packages: [
-        "android.permission",
-        "android.app.role",
-    ],
     public: {
         jars: ["sdk_library/public/framework-permission-stubs.jar"],
         stub_srcs: ["sdk_library/public/framework-permission.srcjar"],
@@ -146,11 +120,6 @@ java_sdk_library_import {
     ],
     licenses: ["permission-module-sdk_Android-Apache-2.0@current"],
     shared_library: false,
-    permitted_packages: [
-        "android.permission",
-        "android.app.role",
-        "com.android.permission",
-    ],
     public: {
         jars: ["sdk_library/public/framework-permission-s-stubs.jar"],
         stub_srcs: ["sdk_library/public/framework-permission-s.srcjar"],
@@ -174,14 +143,9 @@ java_sdk_library_import {
     },
 }
 
-module_java_sdk_library_import {
+java_sdk_library_import {
     name: "framework-permission-s",
-    prefer: true,
-    soong_config_variables: {
-        module_build_from_source: {
-            prefer: false,
-        },
-    },
+    prefer: false,
     visibility: ["//visibility:public"],
     apex_available: [
         "com.android.permission",
@@ -189,11 +153,6 @@ module_java_sdk_library_import {
     ],
     licenses: ["permission-module-sdk_Android-Apache-2.0"],
     shared_library: false,
-    permitted_packages: [
-        "android.permission",
-        "android.app.role",
-        "com.android.permission",
-    ],
     public: {
         jars: ["sdk_library/public/framework-permission-s-stubs.jar"],
         stub_srcs: ["sdk_library/public/framework-permission-s.srcjar"],
@@ -243,14 +202,9 @@ java_sdk_library_import {
     },
 }
 
-module_java_sdk_library_import {
+java_sdk_library_import {
     name: "service-permission",
-    prefer: true,
-    soong_config_variables: {
-        module_build_from_source: {
-            prefer: false,
-        },
-    },
+    prefer: false,
     visibility: ["//visibility:public"],
     apex_available: [
         "com.android.permission",
