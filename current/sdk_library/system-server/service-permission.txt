@@ -1,4 +1,18 @@
 // Signature format: 2.0
+package com.android.ecm {
+
+  public class EnhancedConfirmationCallTrackerService extends android.telecom.InCallService {
+    ctor public EnhancedConfirmationCallTrackerService();
+  }
+
+  public interface EnhancedConfirmationManagerLocal {
+    method public void addOngoingCall(@NonNull android.telecom.Call);
+    method public void clearOngoingCalls();
+    method public void removeOngoingCall(@NonNull String);
+  }
+
+}
+
 package com.android.permission.persistence {
 
   public interface RuntimePermissionsPersistence {
@@ -45,6 +59,8 @@ package com.android.role.persistence {
 
   public final class RolesState {
     ctor public RolesState(int, @Nullable String, @NonNull java.util.Map<java.lang.String,java.util.Set<java.lang.String>>);
+    ctor public RolesState(int, @Nullable String, @NonNull java.util.Map<java.lang.String,java.util.Set<java.lang.String>>, @NonNull java.util.Set<java.lang.String>);
+    method @NonNull public java.util.Set<java.lang.String> getFallbackEnabledRoles();
     method @Nullable public String getPackagesHash();
     method @NonNull public java.util.Map<java.lang.String,java.util.Set<java.lang.String>> getRoles();
     method public int getVersion();
