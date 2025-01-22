@@ -67,6 +67,7 @@ Landroid/app/role/RoleManager;->ROLE_NOTES:Ljava/lang/String;,public-api,sdk,sys
 Landroid/app/role/RoleManager;->ROLE_SMS:Ljava/lang/String;,public-api,sdk,system-api,test-api
 Landroid/app/role/RoleManager;->ROLE_SYSTEM_ACTIVITY_RECOGNIZER:Ljava/lang/String;,sdk,system-api,test-api
 Landroid/app/role/RoleManager;->ROLE_SYSTEM_CALL_STREAMING:Ljava/lang/String;,sdk,system-api,test-api
+Landroid/app/role/RoleManager;->ROLE_SYSTEM_DEPENDENCY_INSTALLER:Ljava/lang/String;,sdk,system-api,test-api
 Landroid/app/role/RoleManager;->ROLE_SYSTEM_SUPERVISION:Ljava/lang/String;,sdk,system-api,test-api
 Landroid/app/role/RoleManager;->ROLE_SYSTEM_WELLBEING:Ljava/lang/String;,sdk,system-api,test-api
 Landroid/app/role/RoleManager;->ROLE_WALLET:Ljava/lang/String;,public-api,sdk,system-api,test-api
@@ -125,7 +126,6 @@ Landroid/permission/jarjar/android/permission/flags/CustomFeatureFlags$$External
 Landroid/permission/jarjar/android/permission/flags/CustomFeatureFlags$$ExternalSyntheticLambda36;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/permission/jarjar/android/permission/flags/CustomFeatureFlags$$ExternalSyntheticLambda37;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/permission/jarjar/android/permission/flags/CustomFeatureFlags$$ExternalSyntheticLambda38;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
-Landroid/permission/jarjar/android/permission/flags/CustomFeatureFlags$$ExternalSyntheticLambda39;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/permission/jarjar/android/permission/flags/CustomFeatureFlags$$ExternalSyntheticLambda3;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/permission/jarjar/android/permission/flags/CustomFeatureFlags$$ExternalSyntheticLambda4;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/permission/jarjar/android/permission/flags/CustomFeatureFlags$$ExternalSyntheticLambda5;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
