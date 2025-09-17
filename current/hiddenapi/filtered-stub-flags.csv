@@ -102,7 +102,6 @@ Landroid/app/role/RoleManager;->setRoleFallbackEnabled(Ljava/lang/String;Z)V,sys
 Landroid/app/role/RoleManager;->setRoleNamesFromController(Ljava/util/List;)V,system-api,test-api
 Landroid/app/role/RoleManager;->setRoleVisibleForTest(Ljava/lang/String;Z)V,system-api,test-api
 Landroid/permission/jarjar/android/os/HandlerExecutor;->execute(Ljava/lang/Runnable;)V,core-platform-api,public-api,system-api,test-api
-Landroid/permission/jarjar/android/permission/flags/CustomFeatureFlags$$ExternalSyntheticLambda0;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/permission/jarjar/android/permission/flags/CustomFeatureFlags$$ExternalSyntheticLambda10;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/permission/jarjar/android/permission/flags/CustomFeatureFlags$$ExternalSyntheticLambda11;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/permission/jarjar/android/permission/flags/CustomFeatureFlags$$ExternalSyntheticLambda12;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
@@ -147,6 +146,8 @@ Landroid/permission/jarjar/android/permission/flags/CustomFeatureFlags$$External
 Landroid/permission/jarjar/android/permission/flags/CustomFeatureFlags$$ExternalSyntheticLambda48;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/permission/jarjar/android/permission/flags/CustomFeatureFlags$$ExternalSyntheticLambda49;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/permission/jarjar/android/permission/flags/CustomFeatureFlags$$ExternalSyntheticLambda4;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
+Landroid/permission/jarjar/android/permission/flags/CustomFeatureFlags$$ExternalSyntheticLambda50;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
+Landroid/permission/jarjar/android/permission/flags/CustomFeatureFlags$$ExternalSyntheticLambda51;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/permission/jarjar/android/permission/flags/CustomFeatureFlags$$ExternalSyntheticLambda5;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/permission/jarjar/android/permission/flags/CustomFeatureFlags$$ExternalSyntheticLambda6;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/permission/jarjar/android/permission/flags/CustomFeatureFlags$$ExternalSyntheticLambda7;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
