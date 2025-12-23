@@ -50,11 +50,6 @@ prebuilt_platform_compat_config {
 
 java_sdk_library_import {
     name: "framework-permission",
-    // Do not prefer prebuilt if the Soong config variable "source_build" in namespace "permission_module" is true.
-    use_source_config_var: {
-        config_namespace: "permission_module",
-        var_name: "source_build",
-    },
     visibility: ["//visibility:public"],
     apex_available: [
         "com.android.permission",
@@ -94,11 +89,6 @@ java_sdk_library_import {
 
 java_sdk_library_import {
     name: "framework-permission-s",
-    // Do not prefer prebuilt if the Soong config variable "source_build" in namespace "permission_module" is true.
-    use_source_config_var: {
-        config_namespace: "permission_module",
-        var_name: "source_build",
-    },
     visibility: ["//visibility:public"],
     apex_available: [
         "com.android.permission",
@@ -141,11 +131,6 @@ java_sdk_library_import {
 
 java_sdk_library_import {
     name: "service-permission",
-    // Do not prefer prebuilt if the Soong config variable "source_build" in namespace "permission_module" is true.
-    use_source_config_var: {
-        config_namespace: "permission_module",
-        var_name: "source_build",
-    },
     visibility: ["//visibility:public"],
     apex_available: [
         "com.android.permission",
@@ -183,6 +168,12 @@ license {
     visibility: ["//visibility:private"],
     license_kinds: ["SPDX-license-identifier-Apache-2.0"],
     license_text: ["licenses/build/soong/licenses/LICENSE"],
+}
+
+license {
+    name: "permission-module-sdk_opensourcerequest",
+    visibility: ["//visibility:private"],
+    license_text: ["licenses/build/soong/licenses/opensourcerequest"],
 }
 
 prebuilt_systemserverclasspath_fragment {
