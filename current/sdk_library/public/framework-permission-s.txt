@@ -9,10 +9,13 @@ package android.app.role {
     field public static final String ROLE_BROWSER = "android.app.role.BROWSER";
     field public static final String ROLE_CALL_REDIRECTION = "android.app.role.CALL_REDIRECTION";
     field public static final String ROLE_CALL_SCREENING = "android.app.role.CALL_SCREENING";
+    field public static final String ROLE_CONTENT_SAFETY = "android.app.role.CONTENT_SAFETY";
     field public static final String ROLE_DIALER = "android.app.role.DIALER";
     field public static final String ROLE_EMERGENCY = "android.app.role.EMERGENCY";
     field public static final String ROLE_HOME = "android.app.role.HOME";
     field public static final String ROLE_NOTES = "android.app.role.NOTES";
+    field public static final String ROLE_REGISTERED_APP_STORE = "android.app.role.REGISTERED_APP_STORE";
+    field public static final String ROLE_SEARCH_ENGINE = "android.app.role.SEARCH_ENGINE";
     field public static final String ROLE_SMS = "android.app.role.SMS";
     field public static final String ROLE_WALLET = "android.app.role.WALLET";
   }
